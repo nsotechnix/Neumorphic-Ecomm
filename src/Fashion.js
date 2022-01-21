@@ -22,62 +22,14 @@ function Fashion() {
 
             {/* mini_nav */}
 </div>
-<div>
+<div className='nav'>
             <nav className='navbar'>
-                <ul class="mini_navbar navbar-nav navbar-nav-hover">
+                <ul class="mini_navbar navbar-nav ml-auto">
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link" data-toggle="dropdown" role="button">
-                            <span class="nav-link-inner-text">Dropdown 2 </span>
-                            <i class="fas fa-angle-down nav-link-arrow"></i>
-                        </a>
+                        <a class="nav-link dropdown-toggle" href="blog.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Dropdown item 1</a></li>
-                            <li><a class="dropdown-item" href="#">Dropdown item 2</a></li>
-                            <li><a class="dropdown-item" href="#">Dropdown item 4</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link" data-toggle="dropdown" role="button">
-                            <span class="nav-link-inner-text">Dropdown 2 </span>
-                            <i class="fas fa-angle-down nav-link-arrow"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Dropdown item 1</a></li>
-                            <li><a class="dropdown-item" href="#">Dropdown item 2</a></li>
-                            <li><a class="dropdown-item" href="#">Dropdown item 4</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link" data-toggle="dropdown" role="button">
-                            <span class="nav-link-inner-text">Dropdown 2 </span>
-                            <i class="fas fa-angle-down nav-link-arrow"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Dropdown item 1</a></li>
-                            <li><a class="dropdown-item" href="#">Dropdown item 2</a></li>
-                            <li><a class="dropdown-item" href="#">Dropdown item 4</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link" data-toggle="dropdown" role="button">
-                            <span class="nav-link-inner-text">Dropdown 2 </span>
-                            <i class="fas fa-angle-down nav-link-arrow"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Dropdown item 1</a></li>
-                            <li><a class="dropdown-item" href="#">Dropdown item 2</a></li>
-                            <li><a class="dropdown-item" href="#">Dropdown item 4</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link" data-toggle="dropdown" role="button">
-                            <span class="nav-link-inner-text">Dropdown 2 </span>
-                            <i class="fas fa-angle-down nav-link-arrow"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Dropdown item 1</a></li>
-                            <li><a class="dropdown-item" href="#">Dropdown item 2</a></li>
-                            <li><a class="dropdown-item" href="#">Dropdown item 4</a></li>
+                            <li><a class="dropdown-item" href="blog.html">All Blog</a></li>
+                            <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
                         </ul>
                     </li>
                 </ul>
